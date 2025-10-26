@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct BTCTickerIOSAppApp: App {
+struct BTCTickerIOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

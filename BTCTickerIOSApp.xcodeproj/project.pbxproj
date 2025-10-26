@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C9A9C5022EAE632500F0BF56 /* BTCTicker in Frameworks */ = {isa = PBXBuildFile; productRef = C9A9C5012EAE632500F0BF56 /* BTCTicker */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C9A9C4E42EAE630500F0BF56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A9C5022EAE632500F0BF56 /* BTCTicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = BTCTickerIOSApp;
 			packageProductDependencies = (
+				C9A9C5012EAE632500F0BF56 /* BTCTicker */,
 			);
 			productName = BTCTickerIOSApp;
 			productReference = C9A9C4D62EAE630400F0BF56 /* BTCTickerIOSApp.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = C9A9C4CD2EAE630400F0BF56;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C9A9C5002EAE632500F0BF56 /* XCLocalSwiftPackageReference "../BTCTicker" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C9A9C4D72EAE630400F0BF56 /* Products */;
 			projectDirPath = "";
@@ -570,6 +579,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C9A9C5002EAE632500F0BF56 /* XCLocalSwiftPackageReference "../BTCTicker" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../BTCTicker;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9A9C5012EAE632500F0BF56 /* BTCTicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BTCTicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C9A9C4CE2EAE630400F0BF56 /* Project object */;
 }
