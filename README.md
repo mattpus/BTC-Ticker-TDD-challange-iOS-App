@@ -15,6 +15,9 @@ The app integrates the public [`BTCTicker`](https://github.com/mattpus/BTC-Ticke
 - Data models (`Price`, `TickerState`, `TickerService`)
 - Services (`DefaultTickerService`) for fetching and streaming prices.
 
+<img width="881" height="904" alt="Screenshot 2025-10-26 at 17 54 13" src="https://github.com/user-attachments/assets/e86529af-5f4f-4101-babe-52e2ebf2d0a9" />
+
+
 ### Structure
 - `ContentView`: SwiftUI view presenting price, status message, and controls.
 - `TickerViewModel`: ObservableObject responsible for formatting and delivering state to the UI.
