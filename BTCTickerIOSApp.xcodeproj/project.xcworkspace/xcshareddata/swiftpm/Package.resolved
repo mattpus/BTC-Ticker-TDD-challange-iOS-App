@@ -1,0 +1,15 @@
+{
+  "originHash" : "d118001b55f775543152cbc9122485bff185084a35dff24ecdd808f8ffbde732",
+  "pins" : [
+    {
+      "identity" : "btc-ticker---tdd-challange",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mattpus/BTC-Ticker---TDD-challange.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a7d8e394708e573a9173fd96c90e1019560e7e16"
+      }
+    }
+  ],
+  "version" : 3
+}

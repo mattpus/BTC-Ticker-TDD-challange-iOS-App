@@ -202,7 +202,7 @@
 			mainGroup = C9A9C4CD2EAE630400F0BF56;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				C9A9C5002EAE632500F0BF56 /* XCLocalSwiftPackageReference "../BTCTicker" */,
+				C9A9C5002EAE632500F0BF56 /* XCRemoteSwiftPackageReference "https://github.com/mattpus/BTC-Ticker---TDD-challange.git" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C9A9C4D72EAE630400F0BF56 /* Products */;
@@ -580,16 +580,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		C9A9C5002EAE632500F0BF56 /* XCLocalSwiftPackageReference "../BTCTicker" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../BTCTicker;
+/* Begin XCRemoteSwiftPackageReference section */
+		C9A9C5002EAE632500F0BF56 /* XCRemoteSwiftPackageReference "https://github.com/mattpus/BTC-Ticker---TDD-challange.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mattpus/BTC-Ticker---TDD-challange.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		C9A9C5012EAE632500F0BF56 /* BTCTicker */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = C9A9C5002EAE632500F0BF56 /* XCRemoteSwiftPackageReference "https://github.com/mattpus/BTC-Ticker---TDD-challange.git" */;
 			productName = BTCTicker;
 		};
 /* End XCSwiftPackageProductDependency section */
